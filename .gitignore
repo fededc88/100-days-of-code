@@ -1,0 +1,8 @@
+#Ignore venv folder
+/projects/.venv/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+/test/__pycache__/
+
+*.py[cod]

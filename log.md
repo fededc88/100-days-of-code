@@ -19,12 +19,14 @@
 **Link(s) to work**: [Calculator App](http://www.example.com)
 
 
-### Day 1: June 27, Monday
+### Day 1: Dicember 3, Sunday
 
-**Today's Progress**: I've gone through many exercises on FreeCodeCamp.
+**Today's Progress**: I've gone through the first exercise of a series of
+excersices found in Twitter.
 
-**Thoughts** I've recently started coding, and it's a great feeling when I finally solve an algorithm challenge after a lot of attempts and hours spent.
+**Thoughts** Wrote a function that reverses an array in place. I used the first
+day to go through setting up a virtual envyronment venv and the unittesting for
+the written code.
 
 **Link(s) to work**
-1. [Find the Longest Word in a String](https://www.freecodecamp.com/challenges/find-the-longest-word-in-a-string)
-2. [Title Case a Sentence](https://www.freecodecamp.com/challenges/title-case-a-sentence)
+1. [Write a function that reverses an array in place.](https://twitter.com/svpino/status/1354048201511333890)

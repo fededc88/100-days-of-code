@@ -30,3 +30,14 @@ the written code.
 
 **Link(s) to work**
 1. [Write a function that reverses an array in place.](https://twitter.com/svpino/status/1354048201511333890)
+
+### Day 2: Dicember 4 and 5, Mon-Tue-day
+
+**Today's Progress**: Went again through the first exercise of a series of
+excersices found in Twitter.
+
+**Thoughts** Learned the difference between list() function and list as an
+object the hard way.
+
+**Link(s) to work**
+1. [Write a function that reverses an array in place.](https://twitter.com/svpino/status/1354048201511333890)

@@ -5,13 +5,6 @@
 
 def reverse_array_in_place(lst):
 
-    # get lst class type
-    lst_type = type(lst)
-
-    if lst_type is list:
-        lst = lst[::-1]
-
-    elif lst_type is str:
-        lst = lst[::-1]
+    lst = lst[::-1]
     
     return lst   

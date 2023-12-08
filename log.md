@@ -41,3 +41,13 @@ object the hard way.
 
 **Link(s) to work**
 1. [Write a function that reverses an array in place.](https://twitter.com/svpino/status/1354048201511333890)
+
+### day 3: dicember 7, Thursday
+
+**Today's Progress**: Went through the second exercise of a series of
+excersices found in Twitter.
+
+**Thoughts** Learned nest a for loop to initialize a list with elements.
+
+**Link(s) to work**
+1. [Write a function that finds the missing number in an unsorted array](https://twitter.com/svpino/status/1354048202207600641)

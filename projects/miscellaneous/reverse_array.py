@@ -19,3 +19,11 @@ def find_missing_number(lst):
 
     return None
     
+def find_duplicated(lst):
+
+    for duplicated in range(1, 100):
+        if lst.count(duplicated) > 1:
+                return duplicated
+
+    return None
+

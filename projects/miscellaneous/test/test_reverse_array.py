@@ -15,12 +15,10 @@ class test_reverse_array_in_place(unittest.TestCase):
         self.assertMultiLineEqual(ra.reverse_array_in_place("1 2 3 probando!"), "!odnaborp 3 2 1")
 
     def test_find_missing_number(self):
-    # Write a function that finds the missing number in an unsorted array
-    # containing every one of the other 99 numbers ranging from 1 to 100.
+        # Write a function that finds the missing number in an unsorted array
+        # containing every one of the other 99 numbers ranging from 1 to 100.
 
-        # create the list and shuffle it
-        lst_missing = [d for d in range (1,100)]
-        random.shuffle(lst_missing)
+        lst_missing = self.__get_unsorted_list__(100)
 
         # get a random missing object
         missing_idx = int(random.randrange(0,99))
@@ -30,6 +28,26 @@ class test_reverse_array_in_place(unittest.TestCase):
         lst_missing.remove(missing_number)
 
         self.assertEqual(ra.find_missing_number(lst_missing), missing_number)
+
+    def test_find_duplicated(self):
+        # Write a function that finds the duplicate number in an unsorted array
+        # containing every number from 1 to 100.
+
+        # Only one of the numbers will appear twice.
+
+        lst_duplicated = self.__get_unsorted_list__(99)
+
+        # get a random number
+        duplicated = int(random.randrange(0,99))
+        lst_duplicated.append(duplicated)
+
+        self.assertEqual(ra.find_duplicated(lst_duplicated), duplicated)
+
+    def __get_unsorted_list__(self, nelements):
+        # create the list of nelements and shuffle it
+        lst_shuffled = [d for d in range (1,nelements)]
+        random.shuffle(lst_shuffled)
+        return lst_shuffled
 
 if __name__ == '__main__':
     unittest.main()

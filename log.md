@@ -51,3 +51,13 @@ excersices found in Twitter.
 
 **Link(s) to work**
 1. [Write a function that finds the missing number in an unsorted array](https://twitter.com/svpino/status/1354048202207600641)
+
+### day 4: dicember 9, Saturday
+
+**Today's Progress**: Went through the third exercise of a series of
+excersices found in Twitter.
+
+**Thoughts** Whent though some good practices about classes private methods.
+
+**Link(s) to work**
+1. [Write a function that finds the duplicate number in an unsorted array ](https://twitter.com/svpino/status/1354048202907987968)

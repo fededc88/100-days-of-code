@@ -27,3 +27,11 @@ def find_duplicated(lst):
 
     return None
 
+def remove_duplicate(lst):
+
+    for duplicated in range(1, 100):
+        if lst.count(duplicated) > 1:
+            lst.remove(duplicated)
+
+    return None
+

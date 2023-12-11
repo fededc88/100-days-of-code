@@ -35,3 +35,7 @@ def remove_duplicate(lst):
 
     return None
 
+def find_min_max(lst):
+
+    return [min(lst), max(lst)]
+

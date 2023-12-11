@@ -59,6 +59,14 @@ class test_reverse_array_in_place(unittest.TestCase):
 
         self.assertEqual(ra.find_duplicated(lst_duplicated), None)
 
+    def test_find_min_max(self):
+        # Write a function that finds the largest and smallest number in an
+        # unsorted array.
+        lst = self.__get_unsorted_list__(99)
+        
+        self.assertListEqual(ra.find_min_max(lst), [1, 98])
+
+
     def __get_unsorted_list__(self, nelements):
         # create the list of nelements and shuffle it
         lst_shuffled = [d for d in range (1,nelements)]

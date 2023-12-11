@@ -43,6 +43,30 @@ class test_reverse_array_in_place(unittest.TestCase):
 
         self.assertEqual(ra.find_duplicated(lst_duplicated), duplicated)
 
+    def test_remove_duplicate(self):
+        # Write a function that removes every duplicate value in an array.
+        
+        # There could be more than one value duplicated. You should remove all
+        # of them leaving a single copy of the value.
+
+        lst_duplicated = self.__get_unsorted_list__(99)
+
+        # get a random number
+        duplicated = int(random.randrange(0,99))
+        lst_duplicated.append(duplicated)
+
+        ra.remove_duplicate(lst_duplicated)
+
+        self.assertEqual(ra.find_duplicated(lst_duplicated), None)
+
+    def test_find_min_max(self):
+        # Write a function that finds the largest and smallest number in an
+        # unsorted array.
+        lst = self.__get_unsorted_list__(99)
+        
+        self.assertListEqual(ra.find_min_max(lst), [1, 98])
+
+
     def __get_unsorted_list__(self, nelements):
         # create the list of nelements and shuffle it
         lst_shuffled = [d for d in range (1,nelements)]

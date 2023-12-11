@@ -61,3 +61,14 @@ excersices found in Twitter.
 
 **Link(s) to work**
 1. [Write a function that finds the duplicate number in an unsorted array ](https://twitter.com/svpino/status/1354048202907987968)
+
+### day 5: dicember 10, Sunday
+
+**Today's Progress**: Went through the fouth and fith exercise of a series of
+excersices found in Twitter.
+
+**Thoughts** Just went through a couple of built in functions. 
+
+**Link(s) to work**
+1. [Write a function that removes every duplicate value in an array](https://twitter.com/svpino/status/1354048203704987648)
+2. [Write a function that finds the largest and smallest number in an unsorted array](https://twitter.com/svpino/status/1354048204480933890)

@@ -66,12 +66,21 @@ class test_reverse_array_in_place(unittest.TestCase):
         
         self.assertListEqual(ra.find_min_max(lst), [1, 98])
 
+    def test_find_array_sum(self):
+        # Write a function that finds a subarray whose sum is equal to a given
+        # value.
+        lst = self.__get_unsorted_list__(20)
+
+        suma = 35;
+        
+        self.assertEqual(sum(ra.find_array_sum(lst, suma)), suma)
 
     def __get_unsorted_list__(self, nelements):
         # create the list of nelements and shuffle it
         lst_shuffled = [d for d in range (1,nelements)]
         random.shuffle(lst_shuffled)
         return lst_shuffled
+
 
 if __name__ == '__main__':
     unittest.main()

@@ -39,3 +39,14 @@ def find_min_max(lst):
 
     return [min(lst), max(lst)]
 
+def find_array_sum(lst, suma):
+
+    length = len(lst)
+
+    if sum(lst) < suma:
+        return None
+    else:
+        for i in range(length):
+            for j in range(i, length):
+                if sum(lst[i: j]) == suma:
+                    return lst[i: j]

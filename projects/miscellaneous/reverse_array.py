@@ -50,3 +50,20 @@ def find_array_sum(lst, suma):
             for j in range(i, length):
                 if sum(lst[i: j]) == suma:
                     return lst[i: j]
+
+def find_array_sum_len(lst, nlen):
+
+    length = len(lst)
+
+    max_sum = 0
+    
+    for i in range(0, length - (nlen - 1)):
+        print(lst[i])
+        suma = sum(lst[i:(i+nlen)])
+        if suma >  max_sum:
+            max_sum = suma
+            lst_max = lst[i:i+nlen]
+
+    return lst_max
+
+

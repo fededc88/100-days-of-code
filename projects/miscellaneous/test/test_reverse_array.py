@@ -75,6 +75,21 @@ class test_reverse_array_in_place(unittest.TestCase):
         
         self.assertEqual(sum(ra.find_array_sum(lst, suma)), suma)
 
+    def test_find_array_sum_len(self):
+        # Write a function that finds the contiguous subarray of a given size
+        # with the largest sum.
+        base = self.__get_unsorted_list__(20)
+        long = [99, 21, 23, 5, 97]
+
+        lst = base + long
+        self.assertListEqual(ra.find_array_sum_len(lst, len(long)), long)
+
+        lst = long + base
+        self.assertListEqual(ra.find_array_sum_len(lst, len(long)), long)
+
+        lst = long[0:10] + base + long[11:20]
+        self.assertListEqual(ra.find_array_sum_len(lst, len(long)), long)
+
     def __get_unsorted_list__(self, nelements):
         # create the list of nelements and shuffle it
         lst_shuffled = [d for d in range (1,nelements)]

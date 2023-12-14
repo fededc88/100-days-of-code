@@ -1,4 +1,5 @@
-# 100 Days Of Code - Log
+#
+100 Days Of Code - Log
 
 ### Day 0: February 30, 2016 (Example 1)
 ##### (delete me or comment me out)
@@ -82,4 +83,14 @@ excersices found in Twitter.
 understand it. . 
 
 **Link(s) to work**
-1. [https://twitter.com/svpino/status/1354048205206466560](Write a function that finds a subarray whose sum is equal to a given value.)
+1. [Write a function that finds a subarray whose sum is equal to a given value.](https://twitter.com/svpino/status/1354048205206466560)
+
+### day 7: dicember 13, Wednesday
+
+**Today's Progress**: Went through the seventh exercise of a series of
+excersices found in Twitter.
+
+**Thoughts** For loops are still super contra intuitive for me. 
+
+**Link(s) to work**
+1. [Write a function that finds the contiguous subarray of a given size with the largest sum.](https://twitter.com/svpino/status/1354048205990879232)

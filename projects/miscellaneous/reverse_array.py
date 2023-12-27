@@ -58,7 +58,7 @@ def find_array_sum_len(lst, nlen):
     max_sum = 0
     
     for i in range(0, length - (nlen - 1)):
-        print(lst[i])
+        #print(lst[i])
         suma = sum(lst[i:(i+nlen)])
         if suma >  max_sum:
             max_sum = suma
@@ -66,4 +66,20 @@ def find_array_sum_len(lst, nlen):
 
     return lst_max
 
+def find_longest_common_array(lst_one, lst_two):
+
+    len_one = len(lst_one)
+    len_two = len(lst_two)
+
+    buff_longhest = list()
+
+    for i in range(len_one):
+        for j in range(len_two):
+            for k in range(len_one-i):
+                if lst_one[i:i+k] == lst_two[j:j+k]:
+                    if len(lst_one[i:i+k]) > len(buff_longhest):
+                        buff_longhest = lst_one[i:i+k]
+                        #print(buff_longhest)
+
+    return buff_longhest
 

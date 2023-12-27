@@ -90,6 +90,20 @@ class test_reverse_array_in_place(unittest.TestCase):
         lst = long[0:10] + base + long[11:20]
         self.assertListEqual(ra.find_array_sum_len(lst, len(long)), long)
 
+    def test_find_longest_common_array(self):
+        # Write a function that, given two arrays, finds the longest common
+        # subarray present in both of them.
+        
+        common = ['a', 'b', 'c', 'd', 'e', 'g']
+
+        array_one = self.__get_unsorted_list__(25) + common + self.__get_unsorted_list__(25)
+        array_two = self.__get_unsorted_list__(10) + common + self.__get_unsorted_list__(40)
+
+        #print(array_one)
+        #print(array_two)
+
+        self.assertListEqual(ra.find_longest_common_array(array_one, array_two), common)
+
     def __get_unsorted_list__(self, nelements):
         # create the list of nelements and shuffle it
         lst_shuffled = [d for d in range (1,nelements)]
@@ -99,4 +113,4 @@ class test_reverse_array_in_place(unittest.TestCase):
 
 if __name__ == '__main__':
     unittest.main()
-    
+        

@@ -94,3 +94,14 @@ excersices found in Twitter.
 
 **Link(s) to work**
 1. [Write a function that finds the contiguous subarray of a given size with the largest sum.](https://twitter.com/svpino/status/1354048205990879232)
+
+### day 8: dicember 27, Wednesday
+
+**Today's Progress**: Went through the exercise number eighth of a series of
+excersices found in Twitter.
+
+**Thoughts** This exercise was kind of triky for me, but was a good way to keep
+exercising for loops. It will fail if lst_two is longer than lst_one.
+
+**Link(s) to work**
+1. [Write a function that finds the contiguous subarray of a given size with the largest sum.](https://twitter.com/svpino/status/1354048205990879232)

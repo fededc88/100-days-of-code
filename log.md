@@ -105,3 +105,14 @@ exercising for loops. It will fail if lst_two is longer than lst_one.
 
 **Link(s) to work**
 1. [Write a function that finds the contiguous subarray of a given size with the largest sum.](https://twitter.com/svpino/status/1354048205990879232)
+
+### day 9: dicember 28, Thursday
+
+**Today's Progress**: Went through the exercise number nine of a series of
+excersices found in Twitter.
+
+**Thoughts** Run the test a couple of times because parts of the list are
+randomly generated and can be found an smaller list.
+
+**Link(s) to work**
+1. [Write a function that, given two arrays, finds the length of the shortest array that contains both input arrays as subarrays.](https://twitter.com/svpino/status/1354048207370776576)

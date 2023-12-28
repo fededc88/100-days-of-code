@@ -104,6 +104,24 @@ class test_reverse_array_in_place(unittest.TestCase):
 
         self.assertListEqual(ra.find_longest_common_array(array_one, array_two), common)
 
+    def test_find_shortest_common_array(self):
+        # Write a function that, given two arrays, finds the length of the
+        # shortest array that contains both input arrays as subarrays.
+        
+        common = ['a', 'b', 'c', 'd', 'e', 'g']
+
+        common_short = ['h', 'i', 'j']
+
+
+        array_one = self.__get_unsorted_list__(25) + common + common_short + self.__get_unsorted_list__(25)
+        array_two = self.__get_unsorted_list__(12) + common_short + common + self.__get_unsorted_list__(25)
+
+        #print(array_one)
+        #print(array_two)
+
+        self.assertListEqual(ra.find_shortest_common_array(array_one, array_two),
+        common_short)
+
     def __get_unsorted_list__(self, nelements):
         # create the list of nelements and shuffle it
         lst_shuffled = [d for d in range (1,nelements)]

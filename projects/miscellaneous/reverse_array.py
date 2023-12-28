@@ -83,3 +83,35 @@ def find_longest_common_array(lst_one, lst_two):
 
     return buff_longhest
 
+def find_shortest_common_array(lst_one, lst_two):
+
+    len_one = len(lst_one)
+    len_two = len(lst_two)
+
+    buff = list()
+    buff_shortest = list()
+    break_len = 0
+
+    for i in range(len_one):
+        if break_len:
+            break_len -= 1
+            #print("pass i" + str(i))
+            continue
+
+        for j in range(len_two):
+            for k in range(len_one-i):
+                #print('K:' + str(k))
+                if lst_one[i:i+k] == lst_two[j:j+k]:
+                    buff = lst_one[i:i+k]
+                    #print(buff)
+                elif len(buff) > 1:
+                    buff_shortest = buff
+                    print(buff_shortest)
+                    break_len = len(buff) - 1
+                    #print("break k" + str(k))
+                    break
+            if break_len:
+                #print("break j" + str(j))
+                break
+
+    return buff_shortest

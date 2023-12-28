@@ -89,13 +89,12 @@ def find_shortest_common_array(lst_one, lst_two):
     len_two = len(lst_two)
 
     buff = list()
-    buff_shortest = list()
+    buff_lst = list()
     break_len = 0
 
     for i in range(len_one):
         if break_len:
             break_len -= 1
-            #print("pass i" + str(i))
             continue
 
         for j in range(len_two):
@@ -103,15 +102,17 @@ def find_shortest_common_array(lst_one, lst_two):
                 #print('K:' + str(k))
                 if lst_one[i:i+k] == lst_two[j:j+k]:
                     buff = lst_one[i:i+k]
-                    #print(buff)
                 elif len(buff) > 1:
-                    buff_shortest = buff
-                    print(buff_shortest)
+                    buff_lst.append(buff)
                     break_len = len(buff) - 1
-                    #print("break k" + str(k))
+                    #print(buff)
                     break
             if break_len:
-                #print("break j" + str(j))
                 break
 
-    return buff_shortest
+    lst_short = list()
+    for lst in buff_lst:
+        if len(lst) < len(lst_short) or len(lst_short) == 0:
+            lst_short = lst
+
+    return lst_short

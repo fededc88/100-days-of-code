@@ -113,8 +113,8 @@ class test_reverse_array_in_place(unittest.TestCase):
         common_short = ['h', 'i', 'j']
 
 
-        array_one = self.__get_unsorted_list__(25) + common + common_short + self.__get_unsorted_list__(25)
-        array_two = self.__get_unsorted_list__(12) + common_short + common + self.__get_unsorted_list__(25)
+        array_one = common_short + self.__get_unsorted_list__(3) + common + self.__get_unsorted_list__(3)
+        array_two = self.__get_unsorted_list__(4) + common_short + common + self.__get_unsorted_list__(2)
 
         #print(array_one)
         #print(array_two)

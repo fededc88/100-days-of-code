@@ -116,3 +116,14 @@ randomly generated and can be found an smaller list.
 
 **Link(s) to work**
 1. [Write a function that, given two arrays, finds the length of the shortest array that contains both input arrays as subarrays.](https://twitter.com/svpino/status/1354048207370776576)
+
+### day 10: january 6, Saturday
+
+**Today's Progress**: Went through the exercise number ten and eleven of a
+series of excersices found in Twitter.
+
+**Thoughts** Need to find a new project.
+
+**Link(s) to work**
+1. [Write a function that, given an array, determines if you can partition it in two separate subarrays such that the sum of elements in both subarrays is the same.](https://twitter.com/svpino/status/1354048208067035136)
+2. [Write a function that, given an array, divides it into two subarrays, such as the absolute difference between their sums is minimum.](https://twitter.com/svpino/status/1354048208834588672)

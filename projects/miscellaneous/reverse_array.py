@@ -125,4 +125,17 @@ def is_the_subarray_partiionable(lst):
 
     return -1
 
+def minimun_sum_subarray_partition(lst):
+
+    part_idx = 0
+    array_sum = sum(lst)
+
+    for i in range(len(lst)):
+        abs_sum = abs(sum(lst[:i]) - sum(lst[i:]))
+
+        if abs_sum < array_sum:
+            array_sum = abs_sum
+            part_idx  = i
+
+    return [lst[:part_idx],lst[part_idx:]]
         

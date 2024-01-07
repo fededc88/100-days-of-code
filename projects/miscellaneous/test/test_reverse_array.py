@@ -137,6 +137,15 @@ class test_reverse_array_in_place(unittest.TestCase):
         #print(result)
         self.assertEqual(sum(result[0]), sum(result[1]))
 
+    def test_minimun_sum_subarray_partition(self):
+        # Write a function that, given an array, divides it into two subarrays,
+        # such as the absolute difference between their sums is minimum.
+
+        array_one = [1,8, 3, 5, 7]
+
+        self.assertListEqual([[1,8,3],[5,7]], ra.minimun_sum_subarray_partition(array_one))
+
+
     def __get_unsorted_list__(self, nelements):
         # create the list of nelements and shuffle it
         lst_shuffled = [d for d in range (1,nelements)]

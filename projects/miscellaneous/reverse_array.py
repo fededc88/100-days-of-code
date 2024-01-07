@@ -116,3 +116,26 @@ def find_shortest_common_array(lst_one, lst_two):
             lst_short = lst
 
     return lst_short
+
+def is_the_subarray_partiionable(lst):
+
+    for i in range(len(lst)):
+        if sum(lst[:i]) == sum(lst[i:]):
+            return [lst[:i],lst[i:]]
+
+    return -1
+
+def minimun_sum_subarray_partition(lst):
+
+    part_idx = 0
+    array_sum = sum(lst)
+
+    for i in range(len(lst)):
+        abs_sum = abs(sum(lst[:i]) - sum(lst[i:]))
+
+        if abs_sum < array_sum:
+            array_sum = abs_sum
+            part_idx  = i
+
+    return [lst[:part_idx],lst[part_idx:]]
+        

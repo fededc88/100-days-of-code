@@ -112,7 +112,6 @@ class test_reverse_array_in_place(unittest.TestCase):
 
         common_short = ['h', 'i', 'j']
 
-
         array_one = common_short + self.__get_unsorted_list__(3) + common + self.__get_unsorted_list__(3)
         array_two = self.__get_unsorted_list__(4) + common_short + common + self.__get_unsorted_list__(2)
 
@@ -122,12 +121,36 @@ class test_reverse_array_in_place(unittest.TestCase):
         self.assertListEqual(ra.find_shortest_common_array(array_one, array_two),
         common_short)
 
+    def test_is_the_subarray_partiionable(self):
+        # Write a function that, given an array, determines if you can partition
+        # it in two separate subarrays such that the sum of elements in both
+        # subarrays is the same.
+
+        # Function will return -1 when you can not partition the array
+        array_one = [1, 3, 5, 7]
+        self.assertEqual(-1, ra.is_the_subarray_partiionable(array_one))
+
+        # Function will return a list with two list elements that will sum the
+        # same
+        array_two = array_one + array_one
+        result = ra.is_the_subarray_partiionable(array_two)
+        #print(result)
+        self.assertEqual(sum(result[0]), sum(result[1]))
+
+    def test_minimun_sum_subarray_partition(self):
+        # Write a function that, given an array, divides it into two subarrays,
+        # such as the absolute difference between their sums is minimum.
+
+        array_one = [1,8, 3, 5, 7]
+
+        self.assertListEqual([[1,8,3],[5,7]], ra.minimun_sum_subarray_partition(array_one))
+
+
     def __get_unsorted_list__(self, nelements):
         # create the list of nelements and shuffle it
         lst_shuffled = [d for d in range (1,nelements)]
         random.shuffle(lst_shuffled)
         return lst_shuffled
-
 
 if __name__ == '__main__':
     unittest.main()

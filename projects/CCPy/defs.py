@@ -53,7 +53,7 @@ cmd_rc = {
         'DAQ_PROCESSOR_BUSY': 0x11,         # C1 NONE (wait until ACK or timeout)
         'INTERNAL_TIMOUT': 0x12,            # C1 NONE (wait until ACK or timeout)
         'KEY_REQUEST': 0x18,                # C1 NONE (embedded seed&key)
-        'SESSION_STATUS_REQUEST': 0x19      # C1 NONE (embedded SET_S_STATUS)
+        'SESSION_STATUS_REQUEST': 0x19,      # C1 NONE (embedded SET_S_STATUS)
         'COLD_START_REQUEST': 0x20,         # C2 COLD STAR
         'CAL_DATA_INIT_REQUEST': 0x21,      # C2 cal. data initialization
         'DAQ_LIST_INIT_REQUEST': 0x22,      # C2 DAQ list initialization

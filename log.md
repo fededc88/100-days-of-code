@@ -127,3 +127,16 @@ series of excersices found in Twitter.
 **Link(s) to work**
 1. [Write a function that, given an array, determines if you can partition it in two separate subarrays such that the sum of elements in both subarrays is the same.](https://twitter.com/svpino/status/1354048208067035136)
 2. [Write a function that, given an array, divides it into two subarrays, such as the absolute difference between their sums is minimum.](https://twitter.com/svpino/status/1354048208834588672)
+
+### day 11: january 8, Monday
+
+**Today's Progress**: Started a mor ambitious project, a ccp master for python.
+
+**Thoughts** Started adding some definitions for the future driver. After
+debating with myself and the internet I concluded that a dictionary is the
+better approach for message comands and rc. Better than enums.
+
+**Link(s) to work**
+1. [Can Calibration Protocol (CCP) Version 2.1](https://automotivetechis.files.wordpress.com/2012/06/ccp211.pdf)
+
+

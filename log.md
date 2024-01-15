@@ -139,4 +139,12 @@ better approach for message comands and rc. Better than enums.
 **Link(s) to work**
 1. [Can Calibration Protocol (CCP) Version 2.1](https://automotivetechis.files.wordpress.com/2012/06/ccp211.pdf)
 
+### day 12: january 13, Saturday
+
+**Today's Progress**: Implemented the ccp msater Class with a squeleton of the
+methods necessaries for sending commands. Implemented the first command,
+connect.
+
+**Thoughts** Made a lot of reading about bytes & bytesarray classes and the
+struct library.
 

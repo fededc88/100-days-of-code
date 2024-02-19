@@ -148,3 +148,10 @@ connect.
 **Thoughts** Made a lot of reading about bytes & bytesarray classes and the
 struct library.
 
+### day 13: February 18, Sunday
+
+**Today's Progress**: Started Python for Data Science Essential Training Part 1
+in Linkedin Training
+
+**Thoughts** I've been learning pandas and his fabulous way of handling .csv as
+dataframes.

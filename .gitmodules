@@ -1,0 +1,3 @@
+[submodule "projects/tiny"]
+	path = projects/tiny
+	url = https://github.com/fededc88/tiny_python_projects

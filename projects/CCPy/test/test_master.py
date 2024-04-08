@@ -1,9 +1,19 @@
 import unittest
-import master as ccp
+from unittest.mock import MagicMock
+from master import master
+
 
 class test_master(unittest.TestCase):
-    def setUp(self)
-        self.master = ccp.master()
+    
+    def setUp(self):
+        global mst
+        mst = master(MagicMock(name='transport'));
 
-    def tearDown(self)
-        self.master.dispose()
+    def test_connect(self):
+        self.assertTrue(mst.connect())
+
+if __name__ == '__main__':
+    unittest.main()
+    
+
+

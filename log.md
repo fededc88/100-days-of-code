@@ -155,3 +155,14 @@ in Linkedin Training
 
 **Thoughts** I've been learning pandas and his fabulous way of handling .csv as
 dataframes.
+
+### day 14: April 8, Monday
+
+**Today's Progress**: Started reading Ken Yousens-Clark book 'Tiny Python
+Projects'
+Whent through the chapter 1. Lot of already known concepts and some super
+useful pearls. 
+I discover 'shetags' and python argparse library. I'm amazed with the simplicity
+of argparse and how everything is abstracted. Super APB in Argentino. 
+
+**Thoughts**: I'll keep reading about argparse and will be using it a lot!

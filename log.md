@@ -162,7 +162,16 @@ dataframes.
 Projects'
 Whent through the chapter 1. Lot of already known concepts and some super
 useful pearls. 
-I discover 'shetags' and python argparse library. I'm amazed with the simplicity
+I discover 'shebang' (#!) and python argparse library. I'm amazed with the simplicity
 of argparse and how everything is abstracted. Super APB in Argentino. 
 
 **Thoughts**: I'll keep reading about argparse and will be using it a lot!
+
+### day 15: April 10, Wednesdady
+
+**Today's Progress**: Ken Yousens-Clark book 'Tiny Python
+Projects chapter 2
+Whent through the chapter 2. Lot of already well known concepts and some super
+useful pearls. 
+
+**Thoughts**: No thoughts today

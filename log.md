@@ -179,8 +179,8 @@ useful pearls.
 ### day 16: April 20, Saturday
 
 **Today's Progress**: Ken Yousens-Clark book 'Tiny Python
-Projects chapter 3
-Some well known concepts about python lists. str.format() can be the thing that
-I'll take from this chapter.
+Projects chapters 03 and 04
+Some well known concepts about python lists and dictionaries. str.format() can
+be the thing that I'll take from this chapter.
 
-**Thoughts**: No thoughts today
+**Thoughts**: Prints formats are still super abstracts for me!

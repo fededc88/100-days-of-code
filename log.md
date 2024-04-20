@@ -175,3 +175,12 @@ Whent through the chapter 2. Lot of already well known concepts and some super
 useful pearls. 
 
 **Thoughts**: No thoughts today
+
+### day 16: April 20, Saturday
+
+**Today's Progress**: Ken Yousens-Clark book 'Tiny Python
+Projects chapter 3
+Some well known concepts about python lists. str.format() can be the thing that
+I'll take from this chapter.
+
+**Thoughts**: No thoughts today

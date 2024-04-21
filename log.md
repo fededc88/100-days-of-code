@@ -184,3 +184,11 @@ Some well known concepts about python lists and dictionaries. str.format() can
 be the thing that I'll take from this chapter.
 
 **Thoughts**: Prints formats are still super abstracts for me!
+
+### day 17: April 21, Sunday
+
+**Today's Progress**: Ken Yousens-Clark book 'Tiny Python
+Projects chapter 05
+Working with files and sys.stdout
+
+**Thoughts**: I hope Fabi Caruana wins the candidates. Go fabi! 

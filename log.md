@@ -192,3 +192,13 @@ Projects chapter 05
 Working with files and sys.stdout
 
 **Thoughts**: I hope Fabi Caruana wins the candidates. Go fabi! 
+
+### day 18: April 27, Saturday
+
+**Today's Progress**: Ken Yousens-Clark book 'Tiny Python
+Projects chapter 06
+Working with files and sys.stdin
+
+**Thoughts**: As an embedded software developer the idea of pipeping the std
+output of a program to another as input keep shaking my minde eneven though I
+use grep all the time. I'll put this in practice. 

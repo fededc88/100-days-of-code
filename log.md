@@ -202,3 +202,11 @@ Working with files and sys.stdin
 **Thoughts**: As an embedded software developer the idea of pipeping the std
 output of a program to another as input keep shaking my minde eneven though I
 use grep all the time. I'll put this in practice. 
+
+### day 19: April 28, Sunday
+
+**Today's Progress**: Ken Yousens-Clark book 'Tiny Python
+Projects chapter 07
+Working with files and a first approach to data structures
+
+**Thoughts**: Are hot dogs sandwiches? 

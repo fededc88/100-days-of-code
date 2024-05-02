@@ -210,3 +210,10 @@ Projects chapter 07
 Working with files and a first approach to data structures
 
 **Thoughts**: Are hot dogs sandwiches? 
+
+### day 20: May 1, Wednesday
+
+**Today's Progress**: Ken Yousens-Clark book 'Tiny Python
+Projects chapter 08
+
+**Thoughts**: Are hot dogs sandwiches? 

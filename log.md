@@ -217,3 +217,13 @@ Working with files and a first approach to data structures
 Projects chapter 08
 
 **Thoughts**: Are hot dogs sandwiches? 
+
+### day 21: May 7, Tuesday
+
+**Today's Progress**: Ken Yousens-Clark book 'Tiny Python
+Projects chapter 09 - partial
+
+I've been working with the argparse.error method implementing optional arguents
+value checks that are not native on the module.
+
+**Thoughts**: Why am I a Rosario Central fan? 

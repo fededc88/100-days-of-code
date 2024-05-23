@@ -236,3 +236,12 @@ Projects chapter 09
 some random module
 
 **Thoughts**:
+
+### day 22: May 22, Thursday
+
+**Today's Progress**: Ken Yousens-Clark book 'Tiny Python
+Projects chapter 10 
+
+Some work creating and replacing elements from strings
+
+**Thoughts**: Whe you can not edit strings on python. Makes no sense

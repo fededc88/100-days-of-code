@@ -246,11 +246,20 @@ Some work creating and replacing elements from strings
 
 **Thoughts**: Whe you can not edit strings on python. Makes no sense
 
-### day 22: May 22, Thursday
+### day 23: Jun 10, Monday
 
 **Today's Progress**: Ken Yousens-Clark book 'Tiny Python
 Projects chapter 11 
 
 Interesting functionality the map()
+
+**Thoughts**:
+
+### day 24: Jun 12, Wednesday
+
+**Today's Progress**: Ken Yousens-Clark book 'Tiny Python
+Projects chapter 12 
+
+Different ways to edit strings.
 
 **Thoughts**:
